@@ -8,9 +8,10 @@ public class PracticeProblem{
                  * instead of dfs, since the tower of hanoi can be represented
                  * as a directed unweighted graph, where the shortest must be
                  * be found, where each state is a node. recursive dfs could
-                 * not solve this problem without iterative deepening, which may disconnect
-                 * itself from the logic of pure recursion. here is a solution to find the 
-                 * number of moves with "recursion" */
+                 * not solve this problem without iterative deepening, which 
+                 * may disconnect itself from the logic of pure recursion. 
+                 * here is a solution to find the number of moves with 
+                 * "recursion" */
                 return num < 3 ? -1 : hanoi(num); 
         }
 
